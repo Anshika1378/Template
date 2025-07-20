@@ -11,13 +11,13 @@ import SectionTwo from "./sectiontwo";
 function SectionOne() {
     return (
         <>
-            <div className="grid grid-cols-3 gap-6 items-center justify-center w-full max-w-6xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-center w-full max-w-6xl mx-auto px-4">
                 <div className="flex justify-center">
                     <img className="h-24" src={group158} alt="" />
-                    <img  className="h-5 right-5 to-black hover:to-blue-800" src={vector1} alt="" />
+                    <img className="h-5 right-5 to-black hover:to-blue-800" src={vector1} alt="" />
                 </div>
 
-                <div className="flex flex-wrap gap-4 justify-center">
+                <div className="flex flex-row flex-wrap justify-center items-center gap-2 w-full max-w-6xl mx-auto">
                     <img className="h-12" src={frame1} alt="" />
                     <img className="h-12" src={frame2} alt="" />
                     <img className="h-12" src={frame3} alt="" />
@@ -25,6 +25,7 @@ function SectionOne() {
                     <img className="h-12" src={frame5} alt="" />
                     <img className="h-12" src={frame6} alt="" />
                 </div>
+
 
                 <div className="flex justify-center">
                     <img className="h-24" src={group158} alt="" />

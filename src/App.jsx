@@ -1,12 +1,11 @@
 import Sheet from "./Components/HomePage/sheet";
 
 function App() {
-  return(
-    <>
-      <div className="h-screen overflow-hidden">
-        <Sheet />
-      </div>
-    </>
-  )
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      <Sheet />
+    </div>
+  );
 }
+
 export default App;
